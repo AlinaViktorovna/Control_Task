@@ -4,25 +4,22 @@
 //При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 //Примеры:
-//[“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
-//[“1234”, “1567”, “-2”, “computer science”] → [“-2”]
-//[“Russia”, “Denmark”, “Kazan”] → []
+//["Hello", "2", "world", ":-)"] → ["2", ":-)"]
+//["1234", "1567", "-2", "computer science"] → ["-2"]
+//["Russia", "Denmark", "Kazan"] → []
 
-void array (string[] FirstArray,string[] SecondArray)
-    string[] FirstArray = ["Hello", "2", "world", ":-)"]
+    string[] FirstArray = {"Hello", "2", "world", ":-)"};
     string[] SecondArray = new string [FirstArray.Length];
     int n = 3;
     int i = 0;
     int j = 0;
     
-    for (int i = 0; i <FirstArray.Length; i++);
+    for (i = 0; i <FirstArray.Length; i++)
     {
         if (FirstArray[i].Length <=n)
         {
             SecondArray[j] = FirstArray[i];
-            j++;
-            {
-                Console.WriteLine (SecondArray[i]);
-            }
+            Console.WriteLine (SecondArray[j]);            
+            j++; 
         }
     }
